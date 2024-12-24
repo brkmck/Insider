@@ -1,0 +1,16 @@
+{
+  "name": "insider",
+  "version": "1.0.0",
+  "description": "Insider Demo",
+  "main": "index.js",
+  "scripts": {
+    "chrome:run": "npx playwright test --project=chromium --headed",
+    "firefox:run": "npx playwright test --project=firefox --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
